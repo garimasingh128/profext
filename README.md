@@ -4,10 +4,6 @@ A profile 🔎 search engine for accessing my all social media profile in one ta
 
 <img src="ss.png" width="600">
 
-## ⏪ Prerequisites
-
-* NodeJS (check for it's installation on terminal using npm -v)
-
 ## 🚀 Steps to setup development environment
 1.  ### Clone the repo
  ```bash
