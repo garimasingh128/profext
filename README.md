@@ -7,7 +7,7 @@
 
 <div align="center">
 
-<img src="logosci.jpeg" width="600">
+<img src="logosci.jpeg" width="300" height="300">
 </div>
 
 [Check out the website of Student Code In 2020](https://scodein.tech/)
