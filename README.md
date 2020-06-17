@@ -10,6 +10,9 @@
 <img src="logosci.jpeg" width="300" height="300">
 </div>
 
+
+
+
 [Check out the website of Student Code In 2020](https://scodein.tech/)
 
 # 👣 Profile Extension
@@ -22,11 +25,22 @@
 ![Platform](https://img.shields.io/badge/platform-Visual%20Studio%20Code-blue)
 ![Maintained](https://img.shields.io/maintenance/yes/2020)
 ![Codacy Badge](https://api.codacy.com/project/badge/Grade/e52b4d5ce490402a8adfe52eb45dc573)
+![first-timers-only](https://img.shields.io/badge/first--timers--only-friendly-tomato.svg?style=flat&logo=git)
+![GitHub stars](https://img.shields.io/github/stars/garimasingh128/profext.svg?logo=github)
+![GitHub forks](https://img.shields.io/github/forks/garimasingh128/profext.svg?logo=github&color=teal)
+![GitHub top language](https://img.shields.io/github/languages/top/garimasingh128/profext?color=yellow&logo=javascript)
 
 A profile 🔎 search engine for accessing my all social media profile in one tap.👨‍💻👩‍. This chrome extension let's you track your profiles on any account in a single click.
 
 ## 👩‍ Vision
 Getting all your social media profiles under one button click so that you don't have to manually search and do the hassle of searching your profile handles while making your resume, filling job opportunities forms, registering for events etc.
+
+## ❤️ Inspiration
+This is motivated by [Traversy Media tutorial on Google Chrome Extention](https://www.youtube.com/watch?v=wHZCYi1K664).
+
+## A Tutorial Blog Post by Anjali Sharma will help you surely. Find her on: [Anjali Sharma](https://www.linkedin.com/in/anjalisharmaaa/) 👨‍💻
+
+For the blog post tutorial on "How to build and publish a Chrome Extension in 10 minutes — Browser Extension Explained" [click here](https://medium.com/mobile-web-dev/how-to-build-and-publish-a-chrome-extension-in-10-minutes-browser-extension-explained-6caa17df46f).
 
 ## 🤷 Project Structure
     .
@@ -68,11 +82,16 @@ Read these articles to get a quick grab on making Chrome extensions:
 - Click **Load unpacked extension** and select the directory in which your extension files live. If the extension is valid, it will be active straight away so you can open a new tab to see your extension.
 - When your first Chrome extension looks nice and works like it should, it’s time to publish it to the Chrome Store. Simply follow [this link](https://chrome.google.com/webstore/developer/dashboard) to go to your Chrome Web Store dashboard (you’ll be asked to sign in to your Google account if you’re not). Then click the `**Add new item**` button, accept the terms and you will go to the page where you can upload your extension. Now compress the folder that contains your project and upload that ZIP file.
 - As a web developer, it’s very easy to create a Chrome extension in a short amount of time. All you need is some HTML, CSS, JavaScript and a basic knowledge of how to add functionality through some of the JavaScript APIs that Chrome exposes. Your initial setup can be published inside the Chrome Web Store within just 20 minutes. Building an extension that’s new, worthwhile or looks nice will take some more time. But it’s all up to you!
-## 🏆  Contributing
+
+## 🏆 Contributing
 
 Please read  CONTRIBUTING.md  for information on how to contribute to profext-extension.
 ## 👬  Owner
 
 [Garima Singh](https://github.com/garimasingh128)
+
+[![Relative date](https://img.shields.io/date/1577392258?color=important&label=started&logo=github)](https://github.com/garimasingh128/) [![Maintenance](https://img.shields.io/maintenance/yes/2020?color=green&logo=github)](https://github.com/garimasingh128/)
+
+[![built with love](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/garimasingh128/)
 
 ## ❤️ Thanks to our awesome contributors.
