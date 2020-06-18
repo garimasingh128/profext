@@ -90,6 +90,7 @@ Please read  CONTRIBUTING.md  for information on how to contribute to profext-ex
 
 [Garima Singh](https://github.com/garimasingh128)
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/69a18fa3a0574431b6f9463f02a8e7a8)](https://app.codacy.com/manual/garimasingh128/profext?utm_source=github.com&utm_medium=referral&utm_content=garimasingh128/profext&utm_campaign=Badge_Grade_Dashboard)
 [![Relative date](https://img.shields.io/date/1577392258?color=important&label=started&logo=github)](https://github.com/garimasingh128/) [![Maintenance](https://img.shields.io/maintenance/yes/2020?color=green&logo=github)](https://github.com/garimasingh128/)
 
 [![built with love](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/garimasingh128/)
