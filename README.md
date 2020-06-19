@@ -2,7 +2,7 @@
 
 # This project is a part of Student Code In 2020 👣
   OPEN SOURCE CONTEST - STUDENT CODE IN
-  ### About Student Code In
+  ### About Student Code In 💻
   Student Code-in is a global program that helps students grow with “OPEN SOURCE”. It is a 2 months long Open-Source initiative which provides you the best platform to improve your skills and abilities by contributing to vast variety of OPEN SOURCE Projects. In this,all the registered participants would get an exquisite opportunity to interact with the mentors and the Organizing Team. 
 
 <div align="center">
@@ -37,10 +37,6 @@ Getting all your social media profiles under one button click so that you don't 
 
 ## ❤️ Inspiration
 This is motivated by [Traversy Media tutorial on Google Chrome Extention](https://www.youtube.com/watch?v=wHZCYi1K664).
-
-## A Tutorial Blog Post by Anjali Sharma will help you surely. Find her on: [Anjali Sharma](https://www.linkedin.com/in/anjalisharmaaa/) 👨‍💻
-
-For the blog post tutorial on "How to build and publish a Chrome Extension in 10 minutes — Browser Extension Explained" [click here](https://medium.com/mobile-web-dev/how-to-build-and-publish-a-chrome-extension-in-10-minutes-browser-extension-explained-6caa17df46f).
 
 ## 🤷 Project Structure
     .
