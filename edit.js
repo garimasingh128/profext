@@ -58,11 +58,11 @@ function UpdateLinks(){
         "gitlab":gitlab_link.value,
         "facebook":facebook_link.value,
         "instagram":instagram_link.value,
-    }
+    };
     chrome.storage.sync.set(dict,function(){
         if(!chrome.runtime.error){
             console.log("Links Updated");
-            window.location.pathname='popup.html'
+            window.location.pathname='popup.html';
         }
-    })
+    });
 }
