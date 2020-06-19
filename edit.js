@@ -12,7 +12,7 @@ var instagram_link = document.getElementById('instagram');
 
 var save_button = document.getElementById('save');
 
-let array = ["name","website","linkedin","medium","twitter","github", "quora", "stackoverflow", "gitlab", "facebook", "instagram"];
+var array = ["name","website","linkedin","medium","twitter","github", "quora", "stackoverflow", "gitlab", "facebook", "instagram"];
 chrome.storage.sync.get(array,function(links){
     if(!chrome.runtime.error){
         console.log(links);
