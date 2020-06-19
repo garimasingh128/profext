@@ -46,7 +46,7 @@ save_button.addEventListener('click',function(){
     UpdateLinks();
 });
 function UpdateLinks(){
-    let dict = {
+    var dict = {
         "name":name_text.value,
         "website":website_link.value,
         "linkedin":linkedin_link.value,
