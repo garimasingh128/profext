@@ -10,7 +10,7 @@ var gitlab_link = document.getElementById('gitlab_link');
 var facebook_link =  document.getElementById('facebook_link');
 var instagram_link = document.getElementById('instagram_link');
 
-let array = ["name","website","linkedin","medium","twitter","github", "quora", "stackoverflow", "gitlab", "facebook", "instagram"];
+var array = ["name","website","linkedin","medium","twitter","github", "quora", "stackoverflow", "gitlab", "facebook", "instagram"];
 
 function void_click(){
     void(0);
