@@ -42,10 +42,8 @@ This is motivated by [Traversy Media tutorial on Google Chrome Extention](https:
     .
     ├── ...
     ├── images
-    │── icons, logo and screenshots
-    │── manifest
+    │── js files
     │── popup.html
-    |── popup.js
     |── README
     └── ...
 
