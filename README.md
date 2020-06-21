@@ -13,7 +13,7 @@
 
 
 
-[Check out the website of Student Code In 2020](https://scodein.tech/)
+⭐ [Check out the website of Student Code In 2020](https://scodein.tech/)
 
 # 👣 Profile Extension
 
@@ -32,6 +32,33 @@
 
 A profile 🔎 search engine for accessing my all social media profile in one tap.👨‍💻👩‍. This chrome extension let's you track your profiles on any account in a single click.
 
+## 📋 Table of Contents
+ ➡️   [Vision](#-vision)
+
+ ➡️   [Project Structure](#-project-structure)
+ 
+ ➡️   [Tech Stack](#-tech-stack)
+ 
+ ➡️   [Setup Development Environment](#-steps-to-setup-development-environment)
+
+ ➡️   [Development Guidelines](#-development-guidelines)
+ 
+ ➡️   [Learning Resources](#-learning-resources)
+ 
+ ➡️   [Simple things to keep in mind](#-simple-things-to-keep-in-mind)
+
+
+ 
+ ➡️   [System Requirements](#-system-requirements)
+ 
+ ➡️   [Contributing](#-contributing)
+ 
+ ➡️   [Owner](#-owner)
+
+
+
+
+
 ## 👩‍ Vision
 Getting all your social media profiles under one button click so that you don't have to manually search and do the hassle of searching your profile handles while making your resume, filling job opportunities forms, registering for events etc.
 
@@ -48,6 +75,12 @@ This is motivated by [Traversy Media tutorial on Google Chrome Extention](https:
     |── popup.js
     |── README
     └── ...
+    
+## 🔆 Tech Stack
+-  HTML
+-  CSS
+-  JavaScript
+
 
 ## 🚀 Steps to setup development environment
 1.  Clone the repo
@@ -57,7 +90,7 @@ This is motivated by [Traversy Media tutorial on Google Chrome Extention](https:
  2. Open the folder in your favourite code editor and start adding modifications.
  3.  Load the folder in `chrome://extensions/` on chrome (Load unpacked)
 
- ## 💻  Development guidelines
+ ## 💻 Development guidelines
 
 1.  Put all the code in one of the existing files in  `/src`  . If you add a new file, make a relavent modification to  `build.js`  .
     
@@ -67,11 +100,15 @@ This is motivated by [Traversy Media tutorial on Google Chrome Extention](https:
     
 5.  Load the  `/build`  folder in  `chrome://extensions/`  on chrome (Load unpacked)
 
-## ⏪  Getting Started
+## 📝 Learning Resources
 
 Read these articles to get a quick grab on making Chrome extensions:
 - [Google Chrome official docs](https://developer.chrome.com/extensions)
 - [Free Code Camp's article on # How to Create and Publish a Chrome Extension in 20 minutes](https://www.freecodecamp.org/news/how-to-create-and-publish-a-chrome-extension-in-20-minutes-6dc8395d7153/)
+
+Resources to learn Git:
+-  https://try.github.io/
+
 ## 🧐 Simple things to keep in mind 
 - The first step is to create a manifest file named `manifest.json`. This is a metadata file in JSON format that contains properties like your extension’s name, description, version number and so on. In this file we tell Chrome what the extension is going to do, and what permissions it requires.
 - To test if the extension works, visit `chrome://extensions` in your browser and ensure that the **Developer mode** checkbox in the top right-hand corner is checked.
@@ -79,10 +116,15 @@ Read these articles to get a quick grab on making Chrome extensions:
 - When your first Chrome extension looks nice and works like it should, it’s time to publish it to the Chrome Store. Simply follow [this link](https://chrome.google.com/webstore/developer/dashboard) to go to your Chrome Web Store dashboard (you’ll be asked to sign in to your Google account if you’re not). Then click the `**Add new item**` button, accept the terms and you will go to the page where you can upload your extension. Now compress the folder that contains your project and upload that ZIP file.
 - As a web developer, it’s very easy to create a Chrome extension in a short amount of time. All you need is some HTML, CSS, JavaScript and a basic knowledge of how to add functionality through some of the JavaScript APIs that Chrome exposes. Your initial setup can be published inside the Chrome Web Store within just 20 minutes. Building an extension that’s new, worthwhile or looks nice will take some more time. But it’s all up to you!
 
+## 💻 System Requirements
+-  Google Chrome
+-  Git
+-  Code Editor (Visual Studio Code,Sublime Text)
+
 ## 🏆 Contributing
 
 Please read  CONTRIBUTING.md  for information on how to contribute to profext-extension.
-## 👬  Owner
+## 👬 Owner
 
 [Garima Singh](https://github.com/garimasingh128)
 
