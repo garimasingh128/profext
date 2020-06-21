@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "navu9999",
+      "name": "Navpreet Kaur",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/59786562?v=4",
+      "profile": "https://www.linkedin.com/in/navpreet-kaur24/",
+      "contributions": [
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "profext",
+  "projectOwner": "garimasingh128",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
