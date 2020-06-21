@@ -98,8 +98,8 @@ Read these articles to get a quick grab on making Chrome extensions:
 - As a web developer, it’s very easy to create a Chrome extension in a short amount of time. All you need is some HTML, CSS, JavaScript and a basic knowledge of how to add functionality through some of the JavaScript APIs that Chrome exposes. Your initial setup can be published inside the Chrome Web Store within just 20 minutes. Building an extension that’s new, worthwhile or looks nice will take some more time. But it’s all up to you!
 
 ## 💻 System Requirements
-- Google Chrome
-- Git
+-  Google Chrome
+-  Git
 
 ## 🏆 Contributing
 
