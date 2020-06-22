@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Profext</title>
+      <link rel="shortcut icon" href="images/icons8-100.png"/>
+      <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+      <style type="text/css">
+         body { display: flex; min-height: 100vh; flex-direction: column;}
+         main {
+         flex: 1 0 auto;
+         }
+         body.welcome {
+         background: black; 
+         background-repeat: no-repeat;
+         overflow: hidden;
+         -webkit-font-smoothing: antialiased;
+         }
+         .welcome .splash {
+         height: 0px;
+         padding: 0px;
+         background-repeat: no-repeat;
+         border: 130em solid #edc351;
+         position: fixed;
+         left: 50%;
+         top: 100%;
+         display: block;
+         box-sizing: initial;
+         overflow: hidden;
+         border-radius: 50%;
+         transform: translate(-50%, -50%);
+         animation: puff 0.5s 1.8s cubic-bezier(0.55, 0.055, 0.675, 0.19) forwards, borderRadius 0.2s 2.3s linear forwards;
+         }
+         .welcome #welcome {
+         background:red;
+         width: 100px;
+         height: 100px;
+         position: absolute;
+         left: 50%;
+         top: 50%;
+         overflow: hidden;
+         opacity: 0;
+         transform: translate(-50%, -50%);
+         border-radius: 50%;
+         animation: init 0.5s 0.2s cubic-bezier(0.55, 0.055, 0.675, 0.19) forwards, moveDown 1s 0.8s cubic-bezier(0.6, -0.28, 0.735, 0.045) forwards, moveUp 1s 1.8s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards, materia 0.5s 2.7s cubic-bezier(0.86, 0, 0.07, 1) forwards, hide 2s 2.9s ease forwards;
+         }
+         .welcome header,
+         .welcome a.btn {
+         opacity: 0;
+         animation: moveIn 2s 3.1s ease forwards;
+         }
+         @keyframes init {
+         0% {
+         width: 0px;
+         height: 0px;
+         }
+         100% {
+         width: 56px;
+         height: 56px;
+         margin-top: 0px;
+         opacity: 1;
+         }
+         }
+         @keyframes puff {
+         0% {
+         top: 100%;
+         height: 0px;
+         padding: 0px;
+         }
+         100% {
+         top: 50%;
+         height: 100%;
+         padding: 0px 100%;
+         }
+         }
+         @keyframes borderRadius {
+         0% {
+         border-radius: 75%;
+         }
+         100% {
+         border-radius: 0px;
+         }
+         }
+         @keyframes moveDown {
+         0% {
+         top: 50%;
+         }
+         50% {
+         top: 40%;
+         }
+         100% {
+         top: 100%;
+         }
+         }
+         @keyframes moveUp {
+         0% {
+         background: #edc351;
+         top: 100%;
+         }
+         50% {
+         top: 40%;
+         }
+         100% {
+         top: 50%;
+         background: yellow;
+         }
+         }
+         @keyframes materia {
+         0% {
+         background-image: url('https://cdn.business2community.com/wp-content/uploads/2016/07/social34.jpg');
+         }
+         75% {
+         background:#f5d06c;
+         top: 26px;
+         }
+         100% {
+         background: #edc351;
+         width: 100%;
+         height: 70px;
+         border-radius: 0px;
+         top: 26px;
+         }
+         }
+         @keyframes moveIn {
+         0% {
+         opacity: 0;
+         }
+         100% {
+         opacity: 1;
+         }
+         }
+         @keyframes hide {
+         0% {
+         opacity: 1;
+         }
+         100% {
+         opacity: 0;
+         }
+         }
+         .btn {
+         padding: 15px 25px;
+         font-size: 24px;
+         text-align: center;
+         cursor: pointer;
+         outline: none;
+         color: #fff;
+         background-color: #4CAF50;
+         border: none;
+         border-radius: 15px;
+         box-shadow: 0 9px #999;
+         }
+         .btn:hover {background-color: #3e8e41}
+         .btn:active {
+         background-color: #3e8e41;
+         box-shadow: 0 5px #666;
+         transform: translateY(4px);
+         }
+      </style>
+   </head>
+   <body class="welcome" style="background-image: url('https://cdn.business2community.com/wp-content/uploads/2016/07/social34.jpg');background-repeat: no-repeat;">
+      <span id="splash-overlay" class="splash"></span>
+      <span id="welcome" class="z-depth-4"></span>
+      <main class="valign-wrapper">
+         <span class="container grey-text text-lighten-1 ">
+            <h1 style="font-size: 100px;font-family: CommercialScript BT;
+               font-weight: 900;margin-top: 175px;margin-left: 125px;"><img src="images/icons8-100.png" height="85" width="85">Profext</h1>
+            <a class="btn" href="edit.html" style="margin-left: 200px;text-decoration:none;">Get Started</a>
+         </span>
+      </main>
+   </body>
+</html>
