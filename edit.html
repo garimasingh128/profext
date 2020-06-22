@@ -12,9 +12,9 @@
           padding: 20px;
       }
       h1 {
-        font-family: "Menlo", monospace;
+        font-family: "cursive", cursive;
         font-size: 22px;
-        font-weight: 400;
+        font-weight: 300;
         margin: 0;
         color: #2f5876;
       }
@@ -57,7 +57,7 @@
       .flex-container {
         display: flex;
         justify-content: space-between;
-        padding: 10px 22px;
+        padding: 10px 10px;
       }
 
       .flex {
@@ -86,7 +86,7 @@
         font-size: 1rem; 
         text-align: center;
         vertical-align: middle;
-        background-color: orange;
+        background-color: teal;
         margin-top: .25rem;
         margin-bottom: .25rem;
         border: none;
@@ -100,7 +100,7 @@
         font-size: 1rem; 
         text-align: center;
         vertical-align: middle;
-        background-color: orange;
+        background-color: teal;
         margin-top: .25rem;
         margin-bottom: .25rem;
         border: none;
@@ -110,35 +110,64 @@
         color: #fff;
         opacity: 0.9;
       }
+      .preference {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin: .5rem;
+      }
+
     </style>
 </head>
 <body>
     <center>
-        <h1>Profile Launcher</h1>
-        <br>
-        <input class="form-control" id="name" type="text" placeholder="Name">
-        <br>
-        <br>
-        <input class="form-control" id="website" type="text" placeholder="Website">
-        <br>
-        <br>
-        <input class="form-control" id="linkedin" type="text" placeholder="LinkedIn"><br>
-        <br>
-        <input class="form-control" id="medium" type="text" placeholder="Medium"><br>
-        <br>
-        <input class="form-control" id="twitter" type="text" placeholder="Twitter"><br>
-        <br>
-        <input class="form-control" id="github" type="text" placeholder="GitHub"><br>
-        <br>
-        <input class="form-control" id="gitlab" type="text" placeholder="GitLab"><br>
-        <br>
-        <input class="form-control" id="quora" type="text" placeholder="Quora"><br>
-        <br>
-        <input class="form-control" id="stackoverflow" type="text" placeholder="Stackoverflow"><br>
-        <br>
-        <input class="form-control" id="facebook" type="text" placeholder="Facebook"><br>
-        <br>
-        <input class="form-control" id="instagram" type="text" placeholder="Instagram"><br>
+        <h1>Edit Profile Information</h1>
+        
+        <div class="preference">
+          <label for="name">Name:</label>
+          <input class="form-control" id="name" type="text">
+        </div>
+  
+        <div class="preference">
+          <label for="website">Website:</label>
+          <input class="form-control" id="website" type="text">
+        </div>
+        <div class="preference">
+          <label for="linkedin">Linkedin:</label>
+          <input class="form-control" id="linkedin" type="text">
+        </div>
+        <div class="preference">
+          <label for="medium">Medium:</label>
+          <input class="form-control" id="medium" type="text">
+        </div>
+        <div class="preference">
+          <label for="text">Twitter:</label>
+          <input class="form-control" id="twitter" type="text" >
+        </div>
+        <div class="preference">
+          <label for="github">Github:</label>
+        <input class="form-control" id="github" type="text">
+        </div>
+        <div class="preference">
+          <label for="gitlab">Gitlab:</label>
+          <input class="form-control" id="gitlab" type="text" >
+        </div>
+        <div class="preference">
+          <label for="quora">Quora:</label>
+          <input class="form-control" id="quora" type="text">
+        </div>
+        <div class="preference">
+          <label for="stackoverflow">Stackoverflow:</label>
+          <input class="form-control" id="stackoverflow" type="text">
+        </div>
+        <div class="preference">
+          <label for="facebook">Facebook:</label>
+          <input class="form-control" id="facebook" type="text">
+        </div>
+        <div class="preference">
+          <label for="instagram">Instagram:</label>
+          <input class="form-control" id="instagram" type="text">
+        </div>
         <br>
         <button class="save-btn" id="save">Save</button>
         &nbsp;&nbsp;<a class="back-btn" role="button" href="popup.html">Back</a>
