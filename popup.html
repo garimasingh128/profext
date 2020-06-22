@@ -2,17 +2,8 @@
 <html>
   <head>
     <title>Quick Launcher</title>
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link
-      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-      rel="stylesheet"
-      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-      crossorigin="anonymous"
-    />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css"/>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"/>
     <style>
       /* Modal Structure */
 
@@ -23,7 +14,7 @@
         margin: 0;
         min-height: 180px;
         padding: 0;
-        width: 500px;
+        width: 550px;
       }
 
       h1 {
@@ -56,7 +47,7 @@
 
       .modal-icons {
         border-top: 0.5px solid #dadada;
-        height: 50px;
+        height: 60px;
         width: 100%;
       }
 
@@ -67,11 +58,6 @@
       .logo-icon {
         vertical-align: text-bottom;
         margin-right: 12px;
-      }
-
-      .version {
-        color: #444;
-        font-size: 18px;
       }
 
       .flex-container {
@@ -93,72 +79,110 @@
 
       .flex .fa {
         font-size: 40px;
-        color: #2f5876;
+        color: #3c797b;
+      }
+      .edit-btn{
+        color: #fff !important;
+        border-radius: 50px;
+        padding: .375rem 3rem;
+        line-height: 1rem;
+        font-size: 1.2rem; 
+        text-align: center;
+        vertical-align: middle;
+        background-color: teal;
+        margin-top: .25rem;
+        margin-bottom: .25rem;
+      }
+      .edit-btn:hover{
+        opacity: .8;
+        border-color: #0062cc;
+      }
+      .flex a div{
+        visibility: hidden;
+      }
+      .flex:hover{
+        cursor: pointer;
+      }
+      .flex:hover div{
+        visibility: visible;
       }
     </style>
-    <script src="popup.js"></script>
+    
   </head>
 
   <body>
-    <div class="modal-header">
-      <h1 class="logo">
-        <img class="logo-icon" src="images/icons8-100.png" />Profile Launcher
-        <span class="version">(1.0.0)</span>
-      </h1>
-    </div>
-    <div class="modal-content">
-      <p>Easily Access Media content</p>
-    </div>
+    <center>
+      <div class="modal-header">
+        <h1 class="logo">
+          <img class="logo-icon" src="images/icons8-100.png" />Profile Launcher
+          <span class="version">(1.0.0)</span>
+        </h1>
+      </div>
+    </center>
+    <center>
+      <div class="modal-content">
+        <p></p>
+        <p id="title_text"><span id="name"></span>Easily Access Media content</p>
+      </div>
+    </center>
     <div class="modal-icons">
       <div class="flex-container">
         <div class="flex">
-          <a href="http://garimasingh128.github.io" target="_blank">
+          <a id="website_link" href="#!" target="_blank">
             <i class="fa fa-globe" style="color:darksalmon "></i>
           </a>
         </div>
-        <div class="flex">
-          <a href="https://www.linkedin.com/in/garima-singh-34042a177/?msgConversationId=6572262943008882688&msgOverlay=true" target="_blank">
+         <div class="flex">
+          <a id="linkedin_link" href="#!" target="_blank">
             <i class="fa fa-linkedin" style="color:rgb(52, 92, 177) "></i>
           </a>
         </div>
         <div class="flex">
-          <a href="https://www.facebook.com/garima1208" target="_blank">
-            <i class="fa fa-facebook" style="color:darkblue "></i>
+          <a id="medium_link" href="#!" target="_blank">
+            <i class="fa fa-medium" style="color:darkblue "></i>
           </a>
         </div>
         <div class="flex">
-          <a href="https://www.instagram.com/gary_.singh/" target="_blank">
-            <i class="fa fa-instagram" style="color:violet "></i>
+          <a id="twitter_link" href="#!" target="_blank">
+            <i class="fa fa-twitter" style="color:blue "></i>
           </a>
         </div>
         <div class="flex">
-          <a href="https://github.com/garimasingh128" target="_blank">
+          <a id="github_link" href="#!" target="_blank">
             <i class="fa fa-github" style="color: rgb(46, 180, 28) "></i>
           </a>
         </div>
         <div class="flex">
-          <a href="https://www.quora.com/profile/Garima-Singh-558" target="_blank">
-            <i class="fa fa-quora" style="color:red "></i>
-          </a>
-        </div>
-        <div class="flex">
-          <a href="https://stackoverflow.com/users/10941642/garima-singh" target="_blank">
+          <a id="stackoverflow_link" href="#!" target="_blank">
             <i class="fa fa-stack-overflow" style="color:palevioletred "></i>
           </a>
         </div>
         <div class="flex">
-          <a href="https://gitlab.com/garingh128" target="_blank">
-            <i class="fa fa-gitlab" style="color:orange "></i>
+          <a id="quora_link" href="#!" target="_blank">
+            <i class="fa fa-quora" style="color:red "></i>
           </a>
         </div>
         <div class="flex">
-          <a href="https://twitter.com/GarimaS93930012" target="_blank">
-            <i class="fa fa-twitter" style="color:blue "></i>
+          <a id="gitlab_link" href="#!" target="_blank">
+            <i class="fa fa-gitlab" style="color:#3c797b "></i>
+            
+          </a>
+        </div>
+        <div class="flex">
+          <a id="facebook_link" href="#!" target="_blank">
+            <i class="fa fa-facebook" style="color: darkblue"></i>
+          </a>
+        </div>
+        <div class="flex">
+          <a id="instagram_link" href="#!" target="_blank">
+            <i class="fa fa-instagram" style="color:violet "></i>
           </a>
         </div>
       </div>
-      <div style="margin-left: 10px;margin-bottom: 5px; font-size: 10px; color: gray; font-family: cursive;">Made with <span style="color: red;">&#9829;</span> by Garima Singh</div>
     </div>
-    <script src="popup.js" > </script>
+    <br>
+    <center><a class="edit-btn" role="button" href="edit.html">Edit</a></center>
+    <br>
+    <script src="popup.js"></script>
   </body>
 </html>
