@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Quick Launcher</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css"/>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"/>
+    <style>
+      /* Modal Structure */
+
+      html,
+      body {
+        font-family: "Open Sans", sans-serif;
+        font-size: 14px;
+        margin: 0;
+        min-height: 180px;
+        padding: 0;
+        width: 550px;
+      }
+
+      h1 {
+        font-family: "Menlo", monospace;
+        font-size: 22px;
+        font-weight: 400;
+        margin: 0;
+        color: #2f5876;
+      }
+
+      a:link,
+      a:visited {
+        color: #000000;
+        outline: 0;
+        text-decoration: none;
+      }
+
+      img {
+        width: 30px;
+      }
+
+      .modal-header {
+        align-items: center;
+        border-bottom: 0.5px solid #dadada;
+      }
+
+      .modal-content {
+        padding: 0 22px;
+      }
+
+      .modal-icons {
+        border-top: 0.5px solid #dadada;
+        height: 60px;
+        width: 100%;
+      }
+
+      .logo {
+        padding: 16px;
+      }
+
+      .logo-icon {
+        vertical-align: text-bottom;
+        margin-right: 12px;
+      }
+
+      .flex-container {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+      }
+
+      .flex {
+        opacity: 1;
+        transition: opacity 0.2s ease-in-out;
+        width: 120px;
+        padding: 2px 8px;
+      }
+
+      .flex:hover {
+        opacity: 0.4;
+      }
+
+      .flex .fa {
+        font-size: 40px;
+        color: #3c797b;
+      }
+      .edit-btn{
+        color: #fff !important;
+        border-radius: 50px;
+        padding: .375rem 3rem;
+        line-height: 1rem;
+        font-size: 1.2rem; 
+        text-align: center;
+        vertical-align: middle;
+        background-color: teal;
+        margin-top: .25rem;
+        margin-bottom: .25rem;
+      }
+      .edit-btn:hover{
+        opacity: .8;
+        border-color: #0062cc;
+      }
+      .flex a div{
+        visibility: hidden;
+      }
+      .flex:hover{
+        cursor: pointer;
+      }
+      .flex:hover div{
+        visibility: visible;
+      }
+    </style>
+    
+  </head>
+
+  <body>
+    <center>
+      <div class="modal-header">
+        <h1 class="logo">
+          <img class="logo-icon" src="images/icons8-100.png" />Profile Launcher
+          <span class="version">(1.0.0)</span>
+        </h1>
+      </div>
+    </center>
+    <center>
+      <div class="modal-content">
+        <p></p>
+        <p id="title_text"><span id="name"></span>Easily Access Media content</p>
+      </div>
+    </center>
+    <div class="modal-icons">
+      <div class="flex-container">
+        <div class="flex">
+          <a id="website_link" href="#!" target="_blank">
+            <i class="fa fa-globe" style="color:darksalmon "></i>
+          </a>
+        </div>
+         <div class="flex">
+          <a id="linkedin_link" href="#!" target="_blank">
+            <i class="fa fa-linkedin" style="color:rgb(52, 92, 177) "></i>
+          </a>
+        </div>
+        <div class="flex">
+          <a id="medium_link" href="#!" target="_blank">
+            <i class="fa fa-medium" style="color:darkblue "></i>
+          </a>
+        </div>
+        <div class="flex">
+          <a id="twitter_link" href="#!" target="_blank">
+            <i class="fa fa-twitter" style="color:blue "></i>
+          </a>
+        </div>
+        <div class="flex">
+          <a id="github_link" href="#!" target="_blank">
+            <i class="fa fa-github" style="color: rgb(46, 180, 28) "></i>
+          </a>
+        </div>
+        <div class="flex">
+          <a id="stackoverflow_link" href="#!" target="_blank">
+            <i class="fa fa-stack-overflow" style="color:palevioletred "></i>
+          </a>
+        </div>
+        <div class="flex">
+          <a id="quora_link" href="#!" target="_blank">
+            <i class="fa fa-quora" style="color:red "></i>
+          </a>
+        </div>
+        <div class="flex">
+          <a id="gitlab_link" href="#!" target="_blank">
+            <i class="fa fa-gitlab" style="color:#3c797b "></i>
+            
+          </a>
+        </div>
+        <div class="flex">
+          <a id="facebook_link" href="#!" target="_blank">
+            <i class="fa fa-facebook" style="color: darkblue"></i>
+          </a>
+        </div>
+        <div class="flex">
+          <a id="instagram_link" href="#!" target="_blank">
+            <i class="fa fa-instagram" style="color:violet "></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <br>
+    <center><a class="edit-btn" role="button" href="edit.html">Edit</a></center>
+    <br>
+    <script src="popup.js"></script>
+  </body>
+</html>
