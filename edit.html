@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Launcher: Edit Links</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css"/>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"/>
+    <style>
+      /* Modal Structure */
+      body{
+          padding: 20px;
+      }
+      h1 {
+        font-family: "cursive", cursive;
+        font-size: 22px;
+        font-weight: 300;
+        margin: 0;
+        color: #2f5876;
+      }
+
+      a:link,
+      a:visited {
+        color: #000000;
+        outline: 0;
+        text-decoration: none;
+      }
+
+      img {
+        width: 30px;
+      }
+
+      .modal-header {
+        align-items: center;
+        border-bottom: 0.5px solid #dadada;
+      }
+
+      .modal-content {
+        padding: 0 22px;
+      }
+
+      .modal-icons {
+        border-top: 0.5px solid #dadada;
+        height: 50px;
+        width: 100%;
+      }
+
+      .logo {
+        padding: 16px;
+      }
+
+      .logo-icon {
+        vertical-align: text-bottom;
+        margin-right: 12px;
+      }
+
+      .flex-container {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 10px;
+      }
+
+      .flex {
+        opacity: 1;
+        transition: opacity 0.2s ease-in-out;
+        width: 120px;
+      }
+
+      .flex:hover {
+        opacity: 0.4;
+      }
+
+      .flex .fa {
+        font-size: 40px;
+        color: #3c797b;
+      }
+      .form-control{
+          padding: 5px;
+          
+      }
+      .save-btn{
+        color: #fff !important;
+        border-radius: 1rem;
+        padding: .375rem .75rem;
+        line-height: 1rem;
+        font-size: 1rem; 
+        text-align: center;
+        vertical-align: middle;
+        background-color: teal;
+        margin-top: .25rem;
+        margin-bottom: .25rem;
+        border: none;
+      }
+
+      .back-btn{
+        color: #fff !important;
+        border-radius: 1rem;
+        padding: .375rem .75rem;
+        line-height: 1rem;
+        font-size: 1rem; 
+        text-align: center;
+        vertical-align: middle;
+        background-color: teal;
+        margin-top: .25rem;
+        margin-bottom: .25rem;
+        border: none;
+      }
+
+      .btn:hover{
+        color: #fff;
+        opacity: 0.9;
+      }
+      .preference {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin: .5rem;
+      }
+
+    </style>
+</head>
+<body>
+    <center>
+        <h1>Edit Profile Information</h1>
+        
+        <div class="preference">
+          <label for="name">Name:</label>
+          <input class="form-control" id="name" type="text">
+        </div>
+  
+        <div class="preference">
+          <label for="website">Website:</label>
+          <input class="form-control" id="website" type="text">
+        </div>
+        <div class="preference">
+          <label for="linkedin">Linkedin:</label>
+          <input class="form-control" id="linkedin" type="text">
+        </div>
+        <div class="preference">
+          <label for="medium">Medium:</label>
+          <input class="form-control" id="medium" type="text">
+        </div>
+        <div class="preference">
+          <label for="text">Twitter:</label>
+          <input class="form-control" id="twitter" type="text" >
+        </div>
+        <div class="preference">
+          <label for="github">Github:</label>
+        <input class="form-control" id="github" type="text">
+        </div>
+        <div class="preference">
+          <label for="gitlab">Gitlab:</label>
+          <input class="form-control" id="gitlab" type="text" >
+        </div>
+        <div class="preference">
+          <label for="quora">Quora:</label>
+          <input class="form-control" id="quora" type="text">
+        </div>
+        <div class="preference">
+          <label for="stackoverflow">Stackoverflow:</label>
+          <input class="form-control" id="stackoverflow" type="text">
+        </div>
+        <div class="preference">
+          <label for="facebook">Facebook:</label>
+          <input class="form-control" id="facebook" type="text">
+        </div>
+        <div class="preference">
+          <label for="instagram">Instagram:</label>
+          <input class="form-control" id="instagram" type="text">
+        </div>
+        <br>
+        <button class="save-btn" id="save">Save</button>
+        &nbsp;&nbsp;<a class="back-btn" role="button" href="popup.html">Back</a>
+    </center>
+    <script src="edit.js"></script>
+</body>
+</html>
