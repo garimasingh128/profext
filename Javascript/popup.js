@@ -90,5 +90,19 @@ chrome.storage.sync.get(array,function(links){
             instagram_link.addEventListener('click',function(event){
                 event.preventDefault();
             });
+
+        if(links.blog)
+            blog_link.href=links.blog;
+        else
+            blog_link.addEventListener('click',function(event){
+                event.preventDefault();
+            });
+
+        if(links.bitbucket)
+            bitbucket_link.href=links.bitbucket;
+        else
+            blog_link.addEventListener('click',function(event){
+                event.preventDefault();
+            });
     }
 });
