@@ -1,94 +1,80 @@
-var name_text = document.getElementById('name');
-var website_link = document.getElementById('website_link');
-var linkedin_link = document.getElementById('linkedin_link');
-var medium_link = document.getElementById('medium_link');
-var twitter_link = document.getElementById('twitter_link');
-var github_link = document.getElementById('github_link');
-var quora_link = document.getElementById('quora_link');
-var stackoverflow_link = document.getElementById('stackoverflow_link');
-var gitlab_link = document.getElementById('gitlab_link');
-var facebook_link =  document.getElementById('facebook_link');
-var instagram_link = document.getElementById('instagram_link');
+const nameText = document.getElementById('name');
+const websiteLink = document.getElementById('website_link');
+const linkedinLink = document.getElementById('linkedin_link');
+const mediumLink = document.getElementById('medium_link');
+const twitterLink = document.getElementById('twitter_link');
+const githubLink = document.getElementById('github_link');
+const quoraLink = document.getElementById('quora_link');
+const stackoverflowLink = document.getElementById('stackoverflow_link');
+const gitlabLink = document.getElementById('gitlab_link');
+const facebookLink = document.getElementById('facebook_link');
+const instagramLink = document.getElementById('instagram_link');
 
-var array = ["name","website","linkedin","medium","twitter","github", "quora", "stackoverflow", "gitlab", "facebook", "instagram"];
+const array = ['name', 'website', 'linkedin', 'medium', 'twitter', 'github', 'quora', 'stackoverflow', 'gitlab', 'facebook', 'instagram'];
 
-function void_click(){
-    void(0);
-}
-chrome.storage.sync.get(array,function(links){
-    if(!chrome.runtime.error){
-        console.log(links);
-        if(links.name)
-            name_text.innerHTML=links.name+"'s ";
-        
-        if(links.website)
-            website_link.href=links.website;
-        else
-            website_link.addEventListener('click',function(event){
-                event.preventDefault();
-            });
-        
-        if(links.linkedin)
-            linkedin_link.href=links.linkedin;
-        else
-            linkedin_link.addEventListener('click',function(event){
-                event.preventDefault();
-            });
+chrome.storage.sync.get(array, (links) => {
+  if (!chrome.runtime.error) {
+    console.log(links);
+    if (links.name) { nameText.innerHTML = `${links.name}'s `; }
 
-        if(links.medium)
-            medium_link.href=links.medium;
-        else
-            medium_link.addEventListener('click',function(event){
-                event.preventDefault();
-            });
-
-        if(links.twitter)
-            twitter_link.href=links.twitter;
-        else
-            twitter_link.addEventListener('click',function(event){
-                event.preventDefault();
-            });
-        
-        if(links.github)
-            github_link.href=links.github;
-        else
-            github_link.addEventListener('click',function(event){
-                event.preventDefault();
-            });
-
-        if(links.quora)
-            quora_link.href=links.quora;
-        else
-            quora_link.addEventListener('click',function(event){
-                event.preventDefault();
-            });
-
-        if(links.gitlab)
-            gitlab_link.href=links.gitlab;
-        else
-            gitlab_link.addEventListener('click',function(event){
-                event.preventDefault();
-            });
-
-        if(links.stackoverflow)
-            stackoverflow_link.href=links.stackoverflow;
-        else
-            stackoverflow_link.addEventListener('click',function(event){
-                event.preventDefault();
-            });
-
-        if(links.facebook)
-            facebook_link.href=links.facebook;
-        else
-            facebook_link.addEventListener('click',function(event){
-                event.preventDefault();
-            });
-
-        if(links.instagram)
-            instagram_link.href=links.instagram;
-        else
-            instagram_link.addEventListener('click',function(event){
-                event.preventDefault();
-            });
+    if (links.website) { websiteLink.href = links.website; } else {
+      websiteLink.addEventListener('click', (event) => {
+        event.preventDefault();
+      });
     }
+
+    if (links.linkedin) { linkedinLink.href = links.linkedin; } else {
+      linkedinLink.addEventListener('click', (event) => {
+        event.preventDefault();
+      });
+    }
+
+    if (links.medium) { mediumLink.href = links.medium; } else {
+      mediumLink.addEventListener('click', (event) => {
+        event.preventDefault();
+      });
+    }
+
+    if (links.twitter) { twitterLink.href = links.twitter; } else {
+      twitterLink.addEventListener('click', (event) => {
+        event.preventDefault();
+      });
+    }
+
+    if (links.github) { githubLink.href = links.github; } else {
+      githubLink.addEventListener('click', (event) => {
+        event.preventDefault();
+      });
+    }
+
+    if (links.quora) { quoraLink.href = links.quora; } else {
+      quoraLink.addEventListener('click', (event) => {
+        event.preventDefault();
+      });
+    }
+
+    if (links.gitlab) { gitlabLink.href = links.gitlab; } else {
+      gitlabLink.addEventListener('click', (event) => {
+        event.preventDefault();
+      });
+    }
+
+    if (links.stackoverflow) { stackoverflowLink.href = links.stackoverflow; } else {
+      stackoverflowLink.addEventListener('click', (event) => {
+        event.preventDefault();
+      });
+    }
+
+    if (links.facebook) { facebookLink.href = links.facebook; } else {
+      facebookLink.addEventListener('click', (event) => {
+        event.preventDefault();
+      });
+    }
+
+    if (links.instagram) { instagramLink.href = links.instagram; } else {
+      instagramLink.addEventListener('click', (event) => {
+        event.preventDefault();
+      });
+    }
+  }
 });
