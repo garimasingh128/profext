@@ -147,7 +147,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://www.linkedin.com/in/navpreet-kaur24/"><img src="https://avatars1.githubusercontent.com/u/59786562?v=4" width="100px;" alt=""/><br /><sub><b>Navpreet Kaur</b></sub></a><br /><a href="https://github.com/garimasingh128/profext/commits?author=navu9999" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/navpreet-kaur24/"><img src="https://avatars1.githubusercontent.com/u/59786562?v=4" width="100px;" alt=""/><br /><sub><b>Navpreet Kaur</b></sub></a><br /><a href="https://github.com/garimasingh128/profext/commits?author=navu9999" title="Documentation">📖</a> <a href="#design-navu9999" title="Design">🎨</a></td>
   </tr>
 </table>
 
