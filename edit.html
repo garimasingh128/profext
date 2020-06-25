@@ -1,177 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile Launcher: Edit Links</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css"/>
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
     <style>
-      /* Modal Structure */
-      body{
-          padding: 20px;
-      }
-      h1 {
-        font-family: "cursive", cursive;
-        font-size: 22px;
-        font-weight: 300;
-        margin: 0;
-        color: #2f5876;
-      }
-
-      a:link,
-      a:visited {
-        color: #000000;
-        outline: 0;
-        text-decoration: none;
-      }
-
-      img {
-        width: 30px;
-      }
-
-      .modal-header {
-        align-items: center;
-        border-bottom: 0.5px solid #dadada;
-      }
-
-      .modal-content {
-        padding: 0 22px;
-      }
-
-      .modal-icons {
-        border-top: 0.5px solid #dadada;
-        height: 50px;
-        width: 100%;
-      }
-
-      .logo {
-        padding: 16px;
-      }
-
-      .logo-icon {
-        vertical-align: text-bottom;
-        margin-right: 12px;
-      }
-
-      .flex-container {
-        display: flex;
-        justify-content: space-between;
-        padding: 10px 10px;
-      }
-
-      .flex {
-        opacity: 1;
-        transition: opacity 0.2s ease-in-out;
-        width: 120px;
-      }
-
-      .flex:hover {
-        opacity: 0.4;
-      }
-
-      .flex .fa {
-        font-size: 40px;
-        color: #3c797b;
-      }
-      .form-control{
-          padding: 5px;
+        /* Modal Structure */
+          body{
+              padding: 12px;
+              border-style:solid;
+              border-color:#027ab9;
+              border-width:5px;
+    
+          }
+          h1 {
+           font-family: anaktoria;
+            font-size: 30px;
+            font-weight: 300;
+            margin: 0;
+            color: #0627bb;
+          }
+    
+          a:link,
+          a:visited {
+           outline: 0;
+            text-decoration: none;
+          }
+    
+          img {
+            width: 35px;
+          }
+    
+          .modal-header {
+            align-items: center;
+            border-bottom: 0.5px solid #dadada;
+          }
+    
+          .modal-content {
+            padding: 0 22px;
+          }
+    
+          .modal-icons {
+            border-top: 0.5px solid #dadada;
+            height: 50px;
+            width: 100%;
+          }
+    
+          .logo {
+            padding: 16px;
+          }
+    
+          .logo-icon {
+            vertical-align: text-bottom;
+            margin-right: 12px;
+          }
+    
+          .flex-container {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 10px;
+          }
+    
+          .flex {
+            opacity: 1;
+            transition: opacity 0.2s ease-in-out;
+            width: 100px;
+          }
+    
+          .flex:hover {
+            opacity: 0.4;
+          }
+    
+          .flex .fa {
+            font-size: 40px;
+            color: #3c797b;
+          }
+          .form-control{
+              padding: 4px;
+              
+          }
           
-      }
-      .save-btn{
-        color: #fff !important;
-        border-radius: 1rem;
-        padding: .375rem .75rem;
-        line-height: 1rem;
-        font-size: 1rem; 
-        text-align: center;
-        vertical-align: middle;
-        background-color: teal;
-        margin-top: .25rem;
-        margin-bottom: .25rem;
-        border: none;
-      }
-
-      .back-btn{
-        color: #fff !important;
-        border-radius: 1rem;
-        padding: .375rem .75rem;
-        line-height: 1rem;
-        font-size: 1rem; 
-        text-align: center;
-        vertical-align: middle;
-        background-color: teal;
-        margin-top: .25rem;
-        margin-bottom: .25rem;
-        border: none;
-      }
-
-      .btn:hover{
-        color: #fff;
-        opacity: 0.9;
-      }
-      .preference {
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-        margin: .5rem;
-      }
-
+    
+          .btn:hover{
+            color: #fff;
+            opacity: 0.9;
+          }
+          .preference {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            margin: .3rem;
+            font-family:alegreya-bold;
+            font-weight: bold;
+            font-size: 17px;
+            
+          }
+    
+          input[type=text] {
+            border-color:#fe888c;
+           }
+           
+            @font-face {
+            font-family:anaktoria;
+            src: url(design\font\Anaktoria.otf);
+           }
+    
+           @font-face {
+            font-family:alegreya-bold;
+            src: url(design\font\alegreya-bold_[allfont.net].ttf);
+           }
+    
+           .save-button{
+            display: inline-block;
+            width: 120px;
+            padding: 3px;
+            border: 3px solid #027ab9;
+            text-align: center;
+            outline: none;
+            text-decoration: none;
+            color:white;
+            font-size: 18px;
+             font-family:alegreya-bold;
+             border-radius: 14px;
+             color:#0627bb;
+          }
+    
+          .save-button:hover,
+          .save-button:active {
+           background-color:#027ab9;
+           color:white;
+    
+           }
     </style>
 </head>
-<body>
+
+<body background="design\images\background.jpg">
+    <a href="popup.html"> <img src="design\images\back.png"></a>
     <center>
-        <h1>Edit Profile Information</h1>
-        
+        <h1>Lets Edit!
+            <img src="design\images\image1.png"></h1>
+
         <div class="preference">
-          <label for="name">Name:</label>
-          <input class="form-control" id="name" type="text">
+            <label for="owner">OWNER:</label>
+            <input class="form-control" id="owner" type="text">
         </div>
-  
+
         <div class="preference">
-          <label for="website">Website:</label>
-          <input class="form-control" id="website" type="text">
-        </div>
-        <div class="preference">
-          <label for="linkedin">Linkedin:</label>
-          <input class="form-control" id="linkedin" type="text">
+            <label for="website">Website:</label>
+            <input class="form-control" id="website" type="text">
         </div>
         <div class="preference">
-          <label for="medium">Medium:</label>
-          <input class="form-control" id="medium" type="text">
+            <label for="medium">Medium:</label>
+            <input class="form-control" id="medium" type="text">
         </div>
         <div class="preference">
-          <label for="text">Twitter:</label>
-          <input class="form-control" id="twitter" type="text" >
+            <label for="quora">Quora:</label>
+            <input class="form-control" id="quora" type="text">
         </div>
         <div class="preference">
-          <label for="github">Github:</label>
-        <input class="form-control" id="github" type="text">
+            <label for="gitlab">Gitlab:</label>
+            <input class="form-control" id="gitlab" type="text">
         </div>
         <div class="preference">
-          <label for="gitlab">Gitlab:</label>
-          <input class="form-control" id="gitlab" type="text" >
+            <label for="bitbucket">BitBucket:</label>
+            <input class="form-control" id="bitbucket" type="text">
         </div>
         <div class="preference">
-          <label for="quora">Quora:</label>
-          <input class="form-control" id="quora" type="text">
+            <label for="twitter">Twitter:</label>
+            <input class="form-control" id="twitter" type="text">
         </div>
         <div class="preference">
-          <label for="stackoverflow">Stackoverflow:</label>
-          <input class="form-control" id="stackoverflow" type="text">
+            <label for="instagram">Instagram:</label>
+            <input class="form-control" id="instagram" type="text">
         </div>
         <div class="preference">
-          <label for="facebook">Facebook:</label>
-          <input class="form-control" id="facebook" type="text">
+            <label for="github">Github:</label>
+            <input class="form-control" id="github" type="text">
         </div>
         <div class="preference">
-          <label for="instagram">Instagram:</label>
-          <input class="form-control" id="instagram" type="text">
+            <label for="linkedin">Linkedin:</label>
+            <input class="form-control" id="linkedin" type="text">
+        </div>
+        <div class="preference">
+            <label for="facebook">Facebook:</label>
+            <input class="form-control" id="facebook" type="text">
+        </div>
+        <div class="preference">
+            <label for="stackoverflow">StackOverflow:</label>
+            <input class="form-control" id="stackoverflow" type="text">
+        </div>
+        <div class="preference">
+            <label for="wordpress">Wordpress:</label>
+            <input class="form-control" id="wordpress" type="text">
+        </div>
+        <div class="preference">
+            <label for="gmail">Gmail:</label>
+            <input class="form-control" id="gmail" type="text">
         </div>
         <br>
-        <button class="save-btn" id="save">Save</button>
-        &nbsp;&nbsp;<a class="back-btn" role="button" href="popup.html">Back</a>
+        <a class="save-button" id="save" href="#"><b>Save</b></a>
     </center>
     <script src="edit.js"></script>
 </body>
+
 </html>
