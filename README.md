@@ -51,13 +51,13 @@ This is motivated by [Traversy Media tutorial on Google Chrome Extention](https:
 
 ## 🚀 Steps to setup development environment
 1.  Clone the repo
- ```bash
- git clone github.com/your_username/profext.git
- ```
- 2. Open the folder in your favourite code editor and start adding modifications.
- 3.  Load the folder in `chrome://extensions/` on chrome (Load unpacked)
+```bash
+  git clone github.com/your_username/profext.git
+```
+2.  Open the folder in your favourite code editor and start adding modifications.
+3.  Load the folder in `chrome://extensions/` on chrome (Load unpacked)
 
- ## 💻  Development guidelines
+## 💻  Development guidelines
 
 1.  Put all the code in one of the existing files in  `/src`  . If you add a new file, make a relavent modification to  `build.js`  .
     
