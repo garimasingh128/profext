@@ -9,10 +9,12 @@ var gitlab_link = document.getElementById('gitlab');
 var stackoverflow_link = document.getElementById('stackoverflow');
 var facebook_link = document.getElementById('facebook');
 var instagram_link = document.getElementById('instagram');
+var bitbucket_link = document.getElementById('bitbucket');
+var blog_link = document.getElementById('blog');
 
 var save_button = document.getElementById('save');
 
-var array = ["name","website","linkedin","medium","twitter","github", "quora", "stackoverflow", "gitlab", "facebook", "instagram"];
+var array = ["name","website","linkedin","medium","twitter","github", "quora", "stackoverflow", "gitlab","bitbucket","blog", "facebook", "instagram"];
 chrome.storage.sync.get(array,function(links){
     if(!chrome.runtime.error){
         console.log(links);
@@ -22,12 +24,16 @@ chrome.storage.sync.get(array,function(links){
             website_link.value=links.website;
         if(links.linkedin)
             linkedin_link.value=links.linkedin;
+        if(links.blog)
+            blog_link.value=links.blog;       
         if(links.medium)
             medium_link.value=links.medium;
         if(links.twitter)
             twitter_link.value=links.twitter;
         if(links.github)
             github_link.value=links.github;
+        if(links.bitbucket)
+            bitbucket_link.value=links.bitbucket;
         if(links.quora)
             quora_link.value=links.quora;
         if(links.gitlab)
@@ -50,9 +56,11 @@ function UpdateLinks(){
         "name":name_text.value,
         "website":website_link.value,
         "linkedin":linkedin_link.value,
+        "blog":blog_link.value,
         "medium":medium_link.value,
         "twitter":twitter_link.value,
         "github":github_link.value,
+        "bitbucket":bitbucket_link.value,
         "stackoverflow":stackoverflow_link.value,
         "quora":quora_link.value,
         "gitlab":gitlab_link.value,

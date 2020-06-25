@@ -71,11 +71,18 @@ This is motivated by [Traversy Media tutorial on Google Chrome Extention](https:
 ## 🤷 Project Structure
     .
     ├── ...
+    |── design
     ├── images
-    │── icons, logo and screenshots
-    │── manifest
-    │── popup.html
-    |── popup.js
+        │── icons
+        |── logos
+        |── screenshots
+    │── manifest.json
+    │── HTML
+        |── edit.html
+        |── popup.html
+    |── Javascript
+        |── edit.js
+        |── popus.js
     |── README
     └── ...
     
