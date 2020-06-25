@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "npm run lint-md && npm run lint-js",
     "lint-md": "remark .",
     "lint-js": "eslint .",
     "lint-js-fix": "eslint . --fix"
@@ -23,7 +24,14 @@
     "eslint": "^7.3.1",
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-plugin-import": "^2.21.2",
+    "husky": "^4.2.5",
     "remark-cli": "^8.0.0",
     "remark-preset-lint-recommended": "^4.0.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint",
+      "pre-push": "npm run lint"
+    }
   }
 }
