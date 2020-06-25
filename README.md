@@ -132,10 +132,10 @@ Resources to learn Git:
 
 ## 🏆 Contributing
 
-Please read  CONTRIBUTING.md  for information on how to contribute to profext-extension.
+Please read  [CONTRIBUTING.md](CONTRIBUTING.md)  for information on how to contribute to profext-extension.
 ## 👬 Owner
 
-[Garima Singh](https://github.com/garimasingh128)
+<a href="https://github.com/garimasingh128"><img src="https://avatars3.githubusercontent.com/u/44302373?s=460&u=efaafa72f4d83d40b66fc68258d14cebbf1d7de0&v=4" width="100px;" alt=""/><br /><sub><b>Garima Singh</b></sub></a><br />
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/69a18fa3a0574431b6f9463f02a8e7a8)](https://app.codacy.com/manual/garimasingh128/profext?utm_source=github.com&utm_medium=referral&utm_content=garimasingh128/profext&utm_campaign=Badge_Grade_Dashboard)
 [![Relative date](https://img.shields.io/date/1577392258?color=important&label=started&logo=github)](https://github.com/garimasingh128/) [![Maintenance](https://img.shields.io/maintenance/yes/2020?color=green&logo=github)](https://github.com/garimasingh128/)
