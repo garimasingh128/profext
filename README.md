@@ -128,9 +128,11 @@ Resources to learn Git:
 
 Please read  [CONTRIBUTING.md](CONTRIBUTING.md)  for information on how to contribute to profext-extension.
 
-##  💼 Code of Conduct
+##  💼  Code of Conduct
 
-We want to facilitate a healthy and constructive community behavior by adopting and enforcing our code of conduct. Please adhere towards our [code-of-conduct.md](code-of-conduct.md).
+We want to facilitate a healthy and constructive community behavior by adopting and enforcing our code of conduct.
+
+Please adhere towards our [code-of-conduct.md](code-of-conduct.md).
 
 ## 👬 Owner
 
