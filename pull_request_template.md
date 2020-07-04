@@ -20,13 +20,12 @@ Fixes #3 Make templates for Code of conduct
 
 # How Has This Been Tested?
 
-Please describe the tests that you ran to verify your changes. Provide instructions so we can reproduce. Please also list any relevant details for your test configuration
+I tested this on a demo page and worked fine. There were no unnecessary changes. The code did not hinder any other functional page.
 
-- [ ] Test A
-- [ ] Test B
+- [x] worked well on demo page
 
 **Test Configuration**:
-* Firmware version:
+* Firmware version: 
 * Hardware:
 * Toolchain:
 * SDK:
