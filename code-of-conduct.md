@@ -4,7 +4,7 @@
   <img width="760" height="500" src="/images/coc.jpg/">
 </p>
 
-Profext is a part of `STUDENT CODE-IN` and wants to create an inclusive environment for everyone, regardless of ethnicity, religion, skin color, national origin, age, disability, sexual orientation, gender identity, parental status, marital status and political belonging as well as gender-specific expression, mental illness, socio-economic status or background. We at SCI-20 are united by these values and uphold our unique differences.
+`Profext` is a part of `STUDENT CODE-IN` and wants to create an inclusive environment for everyone, regardless of ethnicity, religion, skin color, national origin, age, disability, sexual orientation, gender identity, parental status, marital status and political belonging as well as gender-specific expression, mental illness, socio-economic status or background. We at SCI-20 are united by these values and uphold our unique differences.
 
 
 ## Introduction
@@ -24,7 +24,7 @@ Profext is a part of `STUDENT CODE-IN` and wants to create an inclusive environm
 ## EXPECTED BEHAVIOR
 Don't just support your colleagues on demand, be proactive. Offer your help if you notice that a team member is struggling with a problem or otherwise needs help. Be careful not to be too patronizing or disrespectful. When someone turns to you for help, always be open, listen and try to put yourself in the position of your counterpart. If you don't have time because of a deadline, let the person know and tell them openly when you have time or maybe refer a team member who is just as familiar with the topic.
 
-The team of `SCI-20` are expected to be thoughtful and considerate towards others. In this way we contribute to a collaborative, positive and healthy environment in which the team must:
+The team of `profext` (part of `SCI-20`) are expected to be thoughtful and considerate towards others. In this way we contribute to a collaborative, positive and healthy environment in which the team must:
 
 - Be inclusive
 - Be collaborative
