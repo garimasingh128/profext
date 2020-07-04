@@ -127,6 +127,11 @@ Resources to learn Git:
 ## 🏆 Contributing
 
 Please read  [CONTRIBUTING.md](CONTRIBUTING.md)  for information on how to contribute to profext-extension.
+
+##  💼 Code of Conduct
+
+We want to facilitate a healthy and constructive community behavior by adopting and enforcing our code of conduct. Please adhere towards our [code-of-conduct.md](code-of-conduct.md).
+
 ## 👬 Owner
 
 <a href="https://github.com/garimasingh128"><img src="https://avatars3.githubusercontent.com/u/44302373?s=460&u=efaafa72f4d83d40b66fc68258d14cebbf1d7de0&v=4" width="100px;" alt=""/><br /><sub><b>Garima Singh</b></sub></a><br />
