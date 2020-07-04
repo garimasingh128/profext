@@ -79,5 +79,6 @@ Minor incidents should be addressed directly. Take your time and talk to the aff
 
 ## REPORTING AND ENFORCEMENT 
 - If you are the subject of, or witness to any violations of this `Code of Conduct`, please contact us by submitting an incident report, or email us.
-- If necessary, conference staff are empowered to take appropriate actions that may include, but are not limited to, warnings, expulsion from the conference without refund, and referrals to venue security or local law enforcement.
+- Project maintainers who do not follow or enforce the Code of Conduct in good faith may face temporary or permanent repercussions as determined by other members of the project's leadership.
+- If necessary,Admins are empowered to take appropriate actions that may include, but are not limited to, warnings, expulsion from the conference without refund, and referrals to venue security or local law enforcement.
 
