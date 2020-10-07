@@ -1,0 +1,19 @@
+{
+  "name": "profext",
+  "version": "1.0.0",
+  "description": "\"This chrome extension let's you track your profiles on any account in a single click.\"",
+  "main": "edit.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garmiasingh128/profext.git"
+  },
+  "author": "\"Garima Singh\"",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/garmiasingh128/profext/issues"
+  },
+  "homepage": "https://github.com/garmiasingh128/profext#readme"
+}
