@@ -5,4 +5,5 @@ cache:
   directories:
   - node_modules
 script:
-  - make test
+  - npm test
+  - npm run build
