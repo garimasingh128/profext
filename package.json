@@ -4,7 +4,7 @@
   "description": "Profile Extension - A profile search engine for accessing my all social media profile in one tap.",
   "main": "edit.js",
   "scripts": {
-    "test": "mocha"
+    "test": "gulp travis"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,6 @@
   },
   "homepage": "https://github.com/garimasingh128/profext/blob/master/edit.html",
   "devDependencies": {
-    "mocha": "^8.1.3"
+    "gulp": "^3.9.1"
   }
 }
