@@ -4,9 +4,7 @@
   "description": "Profile Extension - A profile search engine for accessing my all social media profile in one tap.",
   "main": "edit.js",
   "scripts": {
-    "test": "gulp travis",
-    "preshrinkwrap": "git checkout -- npm-shrinkwrap.json",
-    "postshrinkwrap": "git checkout -- npm-shrinkwrap.json"
+    "test": "gulp travis"
   },
   "repository": {
     "type": "git",
