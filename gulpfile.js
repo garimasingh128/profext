@@ -1,7 +1,7 @@
-var gulp = require('gulp');
+var gulp = require("gulp");
 
 // Development task
 
-gulp.task('travis', [], function() {
+gulp.task("travis", [], function() {
     process.exit(0);
-})
+});
