@@ -1,6 +1,8 @@
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/garimasingh128/profext)
+
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 # This project is a part of Student Code In 2020 👣
@@ -127,6 +129,13 @@ Resources to learn Git:
 ## 🏆 Contributing
 
 Please read  [CONTRIBUTING.md](CONTRIBUTING.md)  for information on how to contribute to profext-extension.
+
+##  💼  Code of Conduct
+
+We want to facilitate a healthy and constructive community behavior by adopting and enforcing our code of conduct.
+
+Please adhere towards our [code-of-conduct.md](code-of-conduct.md).
+
 ## 👬 Owner
 
 <a href="https://github.com/garimasingh128"><img src="https://avatars3.githubusercontent.com/u/44302373?s=460&u=efaafa72f4d83d40b66fc68258d14cebbf1d7de0&v=4" width="100px;" alt=""/><br /><sub><b>Garima Singh</b></sub></a><br />
@@ -149,6 +158,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://www.linkedin.com/in/navpreet-kaur24/"><img src="https://avatars1.githubusercontent.com/u/59786562?v=4" width="100px;" alt=""/><br /><sub><b>Navpreet Kaur</b></sub></a><br /><a href="https://github.com/garimasingh128/profext/commits?author=navu9999" title="Documentation">📖</a></td>
     <td align="center"><a href="https://sundaram-dubey.netlify.app/"><img src="https://avatars2.githubusercontent.com/u/56407566?v=4" width="100px;" alt=""/><br /><sub><b>Sundaram Dubey</b></sub></a><br /><a href="https://github.com/garimasingh128/profext/commits?author=maze-runnar" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/oshinsaini"><img src="https://avatars3.githubusercontent.com/u/56020411?v=4" width="100px;" alt=""/><br /><sub><b>oshinsaini</b></sub></a><br /><a href="https://github.com/garimasingh128/profext/commits?author=oshinsaini" title="Documentation">📖</a></td>
   </tr>
 </table>
 

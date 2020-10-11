@@ -1,0 +1,30 @@
+{
+  "name": "profext",
+  "version": "1.0.0",
+  "description": "Profile Extension - A profile search engine for accessing my all social media profile in one tap.",
+  "main": "edit.js",
+  "scripts": {
+    "test": "gulp travis"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/garimasingh128/profext.git"
+  },
+  "keywords": [
+    "profile",
+    "html",
+    "css",
+    "javascript",
+    "npm",
+    "travis"
+  ],
+  "author": "Garima Singh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/garimasingh128/profext/issues"
+  },
+  "homepage": "https://github.com/garimasingh128/profext/blob/master/edit.html",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
