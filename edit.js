@@ -9,10 +9,11 @@ var gitlab_link = document.getElementById('gitlab');
 var stackoverflow_link = document.getElementById('stackoverflow');
 var facebook_link = document.getElementById('facebook');
 var instagram_link = document.getElementById('instagram');
+var bitbucket_link=document.getElementById('bitbucket');
 
 var save_button = document.getElementById('save');
 
-var array = ["name","website","linkedin","medium","twitter","github", "quora", "stackoverflow", "gitlab", "facebook", "instagram"];
+var array = ["name","website","linkedin","medium","twitter","github", "quora", "stackoverflow", "gitlab", "facebook", "instagram","bitbucket"];
 chrome.storage.sync.get(array,function(links){
     if(!chrome.runtime.error){
         console.log(links);
@@ -27,7 +28,7 @@ chrome.storage.sync.get(array,function(links){
         if(links.twitter)
             twitter_link.value=links.twitter;
         if(links.github)
-            github_link.value=links.github;
+*            github_link.value=links.github;
         if(links.quora)
             quora_link.value=links.quora;
         if(links.gitlab)
@@ -38,6 +39,8 @@ chrome.storage.sync.get(array,function(links){
             facebook.value=links.facebook;
         if(links.instagram)
             instagram.value=links.instagram;
+        if(links.bitbucket)
+        bitbucket.value=links.bitbucket;
     }
 });
 
@@ -58,6 +61,7 @@ function UpdateLinks(){
         "gitlab":gitlab_link.value,
         "facebook":facebook_link.value,
         "instagram":instagram_link.value,
+        "bitbucket":bitbucket_link.value
     };
     chrome.storage.sync.set(dict,function(){
         if(!chrome.runtime.error){

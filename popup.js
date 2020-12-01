@@ -9,8 +9,9 @@ var stackoverflow_link = document.getElementById('stackoverflow_link');
 var gitlab_link = document.getElementById('gitlab_link');
 var facebook_link =  document.getElementById('facebook_link');
 var instagram_link = document.getElementById('instagram_link');
+var bitbucket_link = document.getElementById('bitbucket_link');
 
-var array = ["name","website","linkedin","medium","twitter","github", "quora", "stackoverflow", "gitlab", "facebook", "instagram"];
+var array = ["name","website","linkedin","medium","twitter","github", "quora", "stackoverflow", "gitlab", "facebook", "instagram","bitbucket"];
 
 function void_click(){
     void(0);
@@ -88,6 +89,12 @@ chrome.storage.sync.get(array,function(links){
             instagram_link.href=links.instagram;
         else
             instagram_link.addEventListener('click',function(event){
+                event.preventDefault();
+            });
+        if(links.bitbucket)
+            bitbucket_link.href=links.bitbucket;
+        else
+            bitbucket_link.addEventListener('click',function(event){
                 event.preventDefault();
             });
     }
