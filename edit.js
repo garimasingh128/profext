@@ -28,7 +28,7 @@ chrome.storage.sync.get(array,function(links){
         if(links.twitter)
             twitter_link.value=links.twitter;
         if(links.github)
-*            github_link.value=links.github;
+           github_link.value=links.github;
         if(links.quora)
             quora_link.value=links.quora;
         if(links.gitlab)
