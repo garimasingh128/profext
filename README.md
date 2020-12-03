@@ -193,14 +193,13 @@ Please adhere towards our [code-of-conduct.md](code-of-conduct.md).
 [![ForTheBadge uses-html](http://ForTheBadge.com/images/badges/uses-html.svg)](https://github.com/garimasingh128/profext)
 [![ForTheBadge uses-css](http://ForTheBadge.com/images/badges/uses-css.svg)](https://github.com/garimasingh128/profext)
 [![ForTheBadge uses-js](http://ForTheBadge.com/images/badges/uses-js.svg)](https://github.com/garimasingh128/profext)
-[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://github.com/garimasingh128/profext)
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://github.com/garimasingh128/profext)
 
 > Made By Garima Singh with ❤️
 
 > Garima Singh &copy; 2020
 <br><br>
-[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/garimsingh128/)
+[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/garimasingh128/)
 [![ForTheBadge built-by-developers](http://ForTheBadge.com/images/badges/built-by-developers.svg)](https://github.com/garimasingh128/)
 
 ***
