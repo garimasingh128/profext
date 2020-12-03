@@ -14,7 +14,7 @@
         margin: 0;
         min-height: 180px;
         padding: 0;
-        width: 550px;
+        width: 640px;
       }
 
       h1 {
@@ -30,10 +30,6 @@
         color: #000000;
         outline: 0;
         text-decoration: none;
-      }
-
-      img {
-        width: 30px;
       }
 
       .modal-header {
@@ -58,6 +54,7 @@
       .logo-icon {
         vertical-align: text-bottom;
         margin-right: 12px;
+        width: 30px;
       }
 
       .flex-container {
@@ -106,6 +103,15 @@
       .flex:hover div{
         visibility: visible;
       }
+      #insta {
+        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+        -webkit-background-clip: text;
+                background-clip: text;
+        -webkit-text-fill-color: transparent;    
+      }
+      .dev{
+        width: 40px;
+      }
     </style>
     
   </head>
@@ -129,53 +135,62 @@
       <div class="flex-container">
         <div class="flex">
           <a id="website_link" href="#!" target="_blank">
-            <i class="fa fa-globe" style="color:darksalmon "></i>
+            <i class="fa fa-globe" style="color: #4c8bf5 "></i>
           </a>
         </div>
          <div class="flex">
           <a id="linkedin_link" href="#!" target="_blank">
-            <i class="fa fa-linkedin" style="color:rgb(52, 92, 177) "></i>
+            <i class="fa fa-linkedin" style="color: #2867B2 "></i>
           </a>
         </div>
         <div class="flex">
           <a id="medium_link" href="#!" target="_blank">
-            <i class="fa fa-medium" style="color:darkblue "></i>
+            <i class="fa fa-medium" style="color:black "></i>
           </a>
         </div>
         <div class="flex">
           <a id="twitter_link" href="#!" target="_blank">
-            <i class="fa fa-twitter" style="color:blue "></i>
+            <i class="fa fa-twitter" style="color:#00acee "></i>
           </a>
         </div>
         <div class="flex">
           <a id="github_link" href="#!" target="_blank">
-            <i class="fa fa-github" style="color: rgb(46, 180, 28) "></i>
+            <i class="fa fa-github" style="color:black "></i>
           </a>
         </div>
         <div class="flex">
           <a id="stackoverflow_link" href="#!" target="_blank">
-            <i class="fa fa-stack-overflow" style="color:palevioletred "></i>
+            <i class="fa fa-stack-overflow" style="color:#F67A00 "></i>
           </a>
         </div>
         <div class="flex">
           <a id="quora_link" href="#!" target="_blank">
-            <i class="fa fa-quora" style="color:red "></i>
+            <i class="fa fa-quora" style="color:#a62100 "></i>
           </a>
         </div>
         <div class="flex">
           <a id="gitlab_link" href="#!" target="_blank">
-            <i class="fa fa-gitlab" style="color:#3c797b "></i>
-            
+            <i class="fa fa-gitlab" style="color:#e24329 "></i>
+          </a>
+        </div>
+        <div class="flex">
+          <a id="bitbucket_link" href="#!" target="_blank">
+            <i class="fa fa-bitbucket" style="color:#253858 "></i>
+          </a>
+        </div>
+        <div class="flex">
+          <a id="dev-link" href="#!" target="_blank">
+            <img class="dev" src="images/dev-logo.svg" />
           </a>
         </div>
         <div class="flex">
           <a id="facebook_link" href="#!" target="_blank">
-            <i class="fa fa-facebook" style="color: darkblue"></i>
+            <i class="fa fa-facebook" style="color:#3b5998"></i>
           </a>
         </div>
         <div class="flex">
           <a id="instagram_link" href="#!" target="_blank">
-            <i class="fa fa-instagram" style="color:violet "></i>
+            <i class="fa fa-instagram" id = "insta"></i>
           </a>
         </div>
       </div>
