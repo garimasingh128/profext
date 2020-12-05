@@ -66,7 +66,7 @@ function UpdateLinks(){
     chrome.storage.sync.set(dict,function(){
         if(!chrome.runtime.error){
             console.log("Links Updated");
-            window.location.pathname='popup.html';
+            window.location.pathname='HTML_files/popup.html';
         }
     });
 }

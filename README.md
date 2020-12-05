@@ -1,4 +1,4 @@
-[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/garimasingh128/profext)
+﻿[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/garimasingh128/profext)
 ![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)&nbsp;
 [![Gitter](https://badges.gitter.im/NWoC2020/Profext.svg)](https://gitter.im/NWoC2020/Profext?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 </br>
@@ -16,7 +16,9 @@
 
 # 👣 Profile Extension
 
-<img src="ss.png" width="600">
+<img src="images/ss.png" width="600">
+<br/>
+
 Gitter Channel: https://gitter.im/NWoC2020/Profext
 
 ![Author](https://img.shields.io/badge/author-garimasingh128-orange)
@@ -39,7 +41,7 @@ A profile 🔎 search engine for accessing my all social media profile in one ta
 
 <div align="center">
 
-<img src="logosci.jpeg" width="300" height="300">
+<img src="images/logosci.jpeg" width="300" height="300">
 </div>
 
 ⭐ [Check out the website of Student Code In 2020](https://scodein.tech/)
