@@ -4,10 +4,10 @@
   "name": "Profile Launcher",
   "description": "Quick launch Media",
   "version": "1.0.0",
-  "icons": { "128": "images/icons8-100.png" },
+  "icons": { "128": "images/icons.png" },
   "browser_action": {
     "default_icon": "images/icons8-19.png",
-    "default_popup": "HTML_files/popup.html"
+    "default_popup": "HTML_files/splash_screen.html"
   },
   "permissions": [
     "activeTab",
