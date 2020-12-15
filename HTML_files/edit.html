@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile Launcher: Edit Links</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css"/>
+    <link href='https://fonts.googleapis.com/css?family=Calligraffitti' rel='stylesheet'>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"/>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
     <style>
       /* Modal Structure */
       body{
           padding: 20px;
       }
       h1 {
-        font-family: "cursive", cursive;
-        font-size: 22px;
-        font-weight: 300;
+        font-family: 'Calligraffitti' ;
+        font-size: 30px;
+        font-weight: bold;
         margin: 0;
         color: #2f5876;
       }
@@ -76,25 +78,94 @@
       }
       .form-control{
           padding: 5px;
-          
       }
+        
+          h1 {
+           font-family: anaktoria;
+            font-size: 30px;
+            font-weight: 300;
+            margin: 0;
+            color: #0627bb;
+          }
+
+          a:link,
+          a:visited {
+           outline: 0;
+            text-decoration: none;
+          }
+
+          img {
+            width: 35px;
+          }
+
+          .modal-header {
+            align-items: center;
+            border-bottom: 0.5px solid #dadada;
+          }
+
+          .modal-content {
+            padding: 0 22px;
+          }
+
+          .modal-icons {
+            border-top: 0.5px solid #dadada;
+            height: 50px;
+            width: 100%;
+          }
+
+          .logo {
+            padding: 16px;
+          }
+
+          .logo-icon {
+            vertical-align: text-bottom;
+            margin-right: 12px;
+          }
+
+          .flex-container {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 10px;
+          }
+
+          .flex {
+            opacity: 1;
+            transition: opacity 0.2s ease-in-out;
+            width: 100px;
+          }
+
+          .flex:hover {
+            opacity: 0.4;
+          }
+
+          .flex .fa {
+            font-size: 40px;
+            color: #3c797b;
+          }
+          .form-control{
+              padding: 4px;
+
+          }
+
       .save-btn{
-        color: #fff !important;
-        border-radius: 1rem;
+        color: #0627bb !important;
+        font-weight: bolder;
         padding: .375rem .75rem;
+        width: 30%;
         line-height: 1rem;
         font-size: 1rem; 
         text-align: center;
         vertical-align: middle;
-        background-color: teal;
-        margin-top: .25rem;
-        margin-bottom: .25rem;
-        border: none;
+        margin-top: .2rem;
+        margin-bottom: .2rem;
+        border: 4px solid rgb(70, 181, 214);
+        
       }
 
       .back-btn{
         color: #fff !important;
         border-radius: 1rem;
+      
         padding: .375rem .75rem;
         line-height: 1rem;
         font-size: 1rem; 
@@ -108,21 +179,44 @@
 
       .btn:hover{
         color: #fff;
-        opacity: 0.9;
+        opacity: 0.8;
       }
       .preference {
         display: flex;
         justify-content: space-between;
         width: 100%;
-        margin: .5rem;
+        margin: .2rem;
       }
 
+
+          .save-btn:hover{
+            color: #fff;
+            opacity: 0.8;
+          }
+          .preference {
+            display: flex;
+            justify-content: space-between;
+            width: 50%;
+            margin: .6rem;
+            font-family:alegreya-bold;
+            font-weight: bold;
+            font-size: 17px;
+
+          }
+
+          input[type=text] {
+            border-color:#fe888c;
+           }
     </style>
 </head>
-<body style="background: #FFFFE0">
+<body>
+
+<body background="/design/images/background.jpg">
+   &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp <a href="popup.html"> <img src="/design/images/back.png"></a>
     <center>
-        <h1>Edit Profile Information</h1>
-        
+
+        <h1>Lets Edit!
+            <img src="/design/images/image1.png"></h1>
         <div class="preference">
           <label for="name">Name:</label>
           <input class="form-control" id="name" type="text">
@@ -172,10 +266,12 @@
           <label for="blog">Blog:</label>
           <input class="form-control" id="blog" type="text">
         </div>
+        
         <br>
         <button class="save-btn" id="save">Save</button>
-        &nbsp;&nbsp;<a class="back-btn" role="button" href="popup.html">Back</a>
     </center>
     <script src="edit.js"></script>
 </body>
 </html>
+
+</html> 
