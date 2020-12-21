@@ -1,9 +1,5 @@
-<!DOCTYPE html>
 <html>
-<head>
-<title>Quick Launcher</title>
 <style>
-
 html,body 
 {
 	font-size: 14px;
@@ -48,7 +44,6 @@ h1
     	cursor: pointer;
    	outline: none;
     	color: #fff;
-	font-family:Calisto MT;
     	border: solid;
     	border-color: white;
     	border-radius: 15px;
@@ -59,31 +54,121 @@ h1
 	font-size:25px;
 	color:rgb(221%,181%,21%);
 }
+
+
+#div1
+{
+	height:250px;
+	width:550px;
+	//background-color:rgb(255,255,0);
+	background-size:550px 250px;
+	//background-image: url("design/images/background_splash.png");
+    	background-repeat: no-repeat;
+}
+.splash{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-name: open;
+    animation-duration: 1.5s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+.splash .img{
+    background-image: url("./logo.svg");
+    height: 72px;
+    width: 72px;
+    z-index: 9;
+}
+.splash::after, .splash::before{
+    content: "";
+    position: absolute;
+    background-color: #fff;
+     height:100px;
+    width:300px;
+    z-index: 99;
+    animation-name: open;
+    animation-fill-mode: forwards;
+    animation-duration: 4s;
+}
+.splash::after{
+    left: 30vw;
+    animation-delay: 200ms;
+}
+.splash::before{
+    left: 0;
+    animation-delay: 4s;
+}
+@keyframes open{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(100%, 0);
+    }
+}
+#c1{
+    font-size: 12px;
+    color: transparent;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    animation-name: fadeIn;
+    animation-duration: 2s;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+@keyframes fadeIn{
+    0%{
+        padding-top: 20px;
+        color: transparent;
+    }
+    100%{
+        padding-top: 0;
+        color: white;
+    }
+}
+
 </style>
-</head>
-<body background="\design/images/background_splash.png">
+<body background="..\design/images/background_splash.png">
+<div id="div1" >
+<div class="splash">
+</div>
+
 <center>
-      <div class="header" >
+
+      <div  class="header" >
        <h1 class="logo">
-          <img class="logo-icon" src="\images/icons.png" width=40px />
+          <img  class="logo-icon" src="..\images/icons.png" width=40px />
         </h1>
       </div>
 </center>
-
- <center>
-      <div class="content" >
+ 
+<center>
+      <div id="c1" class="content" >
        	 <p id="p1">Profile Luancher</p>
       </div>
 </center>
     
 <div class="box" >
  <center>
-<a class="a1" href="popup.html" style="text-decoration:none;">LETS GET STARTED</a>
+<a class="a1" href="pop.html" style="text-decoration:none;">LETS GET STARTED</a>
 <br><br>
 <p style="font-size:14px;">FORK ME ON GITHUB
-<img src="\design/images/github.png" width="20px" height="18px"></center>
+<img src="..\design/images/github.png" width="20px" height="18px"></center>
 </p>
 </div>
 
-    </body>
+ 
+</div>
+</body>
 </html>
