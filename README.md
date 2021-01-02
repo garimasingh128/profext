@@ -1,35 +1,24 @@
-﻿[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/garimasingh128/profext)
-![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)&nbsp;
-[![Gitter](https://badges.gitter.im/NWoC2020/Profext.svg)](https://gitter.im/NWoC2020/Profext?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-</br>
 
-
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/garimasingh128/profext)&nbsp;
-[![first-timers-only](https://img.shields.io/badge/first--timers--only-friendly-blue.svg?style=flat-square)](https://github.com/garimasingh128/profext/)&nbsp;
-![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)&nbsp;
-[![Documentation Status](https://readthedocs.org/projects/ansicolortags/badge/?version=latest)](https://github.com/garimasingh128/profext/blob/master/README.md)&nbsp;
-
-
-
-# 👣 Profile Extension
-
-<img src="images/ss.png" width="600">
-<br/>
-
-Gitter Channel: https://gitter.im/NWoC2020/Profext
-
-![Author](https://img.shields.io/badge/author-garimasingh128-orange)
+<h1 align="center">
+  
+![Author](https://img.shields.io/badge/Author-garimasingh128-orange)
 ![License](https://img.shields.io/badge/license-MIT-brightgreen)
-![Platform](https://img.shields.io/badge/platform-Visual%20Studio%20Code-blue)
-![Maintained](https://img.shields.io/maintenance/yes/2020)
-![Codacy Badge](https://api.codacy.com/project/badge/Grade/e52b4d5ce490402a8adfe52eb45dc573)
-![first-timers-only](https://img.shields.io/badge/first--timers--only-friendly-tomato.svg?style=flat&logo=git)
+![Platform](https://img.shields.io/badge/Platform-Visual%20Studio%20Code-blue)
+![maintained](https://img.shields.io/maintenance/yes/2020)
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/garimasingh128/profext)
+![First-timers-only](https://img.shields.io/badge/first--timers--only-friendly-tomato.svg?style=flat&logo=git)
 ![GitHub stars](https://img.shields.io/github/stars/garimasingh128/profext.svg?logo=github)
 ![GitHub forks](https://img.shields.io/github/forks/garimasingh128/profext.svg?logo=github&color=teal)
 ![GitHub top language](https://img.shields.io/github/languages/top/garimasingh128/profext?color=yellow&logo=javascript)
+![Codacy Badge](https://api.codacy.com/project/badge/Grade/e52b4d5ce490402a8adfe52eb45dc573)
+![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)&nbsp;[![Gitter](https://badges.gitter.im/NWoC2020/Profext.svg)](https://gitter.im/NWoC2020/Profext?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/garimasingh128/profext)&nbsp;[![First-timers-only](https://img.shields.io/badge/first--timers--only-friendly-blue.svg?style=flat-square)](https://github.com/garimasingh128/profext/)&nbsp;![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)&nbsp;[![Documentation Status](https://readthedocs.org/projects/ansicolortags/badge/?version=latest)](https://github.com/garimasingh128/profext/blob/master/README.md)&nbsp;
+</h1>
+<h1 align="center">👣 Profile Extension</h1>
+<h1 align="center"><img src="images/ss.png" width="600"></h1>
+
+GitterChannel:https://gitter.im/NWoC2020/Profext
 
 A profile 🔎 search engine for accessing my all social media profile in one tap.👨‍💻👩‍. This chrome extension lets you track your profiles on any account in a single click.
 # Open Source Contests 👣
