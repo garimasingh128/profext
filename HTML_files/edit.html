@@ -76,14 +76,14 @@
       }
       .form-control{
           padding: 5px;
-          
+
       }
       .save-btn{
         color: #fff !important;
         border-radius: 1rem;
         padding: .375rem .75rem;
         line-height: 1rem;
-        font-size: 1rem; 
+        font-size: 1rem;
         text-align: center;
         vertical-align: middle;
         background-color: teal;
@@ -97,7 +97,7 @@
         border-radius: 1rem;
         padding: .375rem .75rem;
         line-height: 1rem;
-        font-size: 1rem; 
+        font-size: 1rem;
         text-align: center;
         vertical-align: middle;
         background-color: teal;
@@ -116,18 +116,60 @@
         width: 100%;
         margin: .5rem;
       }
+      .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+
+  /* Hide default HTML checkbox */
+
+
+
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top:0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 10px;
+
+  }
+
+  .slider:before {
+    position: absolute;
+    content: "hi";
+
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+
+  }
+  input:checked + .slider:before {
+    -webkit-transform: translateX(10px);
+    -ms-transform: translateX(10px);
+    transform: translateX(26px);
+
+  }
 
     </style>
 </head>
 <body style="background: #FFFFE0">
     <center>
         <h1>Edit Profile Information</h1>
-        
+
         <div class="preference">
           <label for="name">Name:</label>
           <input class="form-control" id="name" type="text">
         </div>
-  
+
         <div class="preference">
           <label for="website">Website:</label>
           <input class="form-control" id="website" type="text">
@@ -177,5 +219,10 @@
         &nbsp;&nbsp;<a class="back-btn" role="button" href="popup.html">Back</a>
     </center>
     <script src="edit.js"></script>
+    <label class="switch">
+        <input type="checkbox">
+        <span class="slider"></span>
+    </label>
+
 </body>
 </html>
